@@ -1,0 +1,92 @@
+.header{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.header div h2{
+font-size: 1.7rem;
+color: white;
+text-transform: uppercase;
+font-weight: 600;
+}
+.header div h2 span{
+font-size: medium;
+margin-top: 0%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(157, 156, 156);
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    padding: 1rem;
+
+}
+.card1 img{
+    border-radius: 2px;
+margin: .5rem;}
+.card1 h4{
+    text-transform: capitalize;
+    color: rgb(53, 53, 53);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+
+}
+.card1 div span{
+    font-size: medium;
+    margin-top: 0%;
+    color:red;
+
+}
+.container{
+    display: grid;
+grid-template-columns: 950px 200px;
+
+}
+.card2{
+    margin-left: 2.5rem;
+}
+.card2 p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: red;
+}
+.right ul{
+    list-style: none;
+color: red;
+font-size: larger;
+font-weight: 700;
+}
+
+.right ul li{
+ font-size: 1rem;
+    margin: 9px;
+    font-weight: normal;
+}
